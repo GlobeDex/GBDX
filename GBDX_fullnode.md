@@ -21,4 +21,4 @@ Install Dependancies
 
 `geth --datadir="./" init ./config/genesis.json`
 ### Start a full node 
-`geth --datadir="./" --config='./config/config.toml'  ` 
+`geth --datadir="./" --config='./config/config.toml'  --cache 8000 --rpc.allow-unprotected-txs --txlookuplimit 0` 
