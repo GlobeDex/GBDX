@@ -9,7 +9,7 @@ Install Dependancies
 
 `sudo apt-get install ethereum unzip`
 
-# Make datadir for the node and download genesis data
+### Make datadir for the node and download genesis data
 
 `mkdir gbdx`
 
@@ -20,5 +20,5 @@ Install Dependancies
 `unzip genesis.zip`
 
 `geth --datadir="./" init ./config/genesis.json`
-# Start a full node 
+### Start a full node 
 `geth --datadir="./" --config='./config/config.toml'  ` 
